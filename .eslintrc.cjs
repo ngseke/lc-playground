@@ -3,6 +3,9 @@ module.exports = {
     node: true,
     browser: true,
   },
+  plugins: [
+    'html',
+  ],
   extends: 'standard',
   rules: {
     'no-unused-vars': 'warn',
